@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Spot, TimeSlot, Category, Location } from '../types';
+import { TimeSlot, Category, Location } from '../types';
 import { spots } from '../data/spots';
 
 function getTimeSlot(hour: number): TimeSlot {
